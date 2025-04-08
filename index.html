@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FUELSMART</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="tab"> 
+    <button class="tablinks" onclick="openTab(event, 'login')">Login</button>
+  </div>
+<div id="login" class="tabcontent">
+  <!-- Add your login form here -->
+  
+  <form id="loginform">
+ 
+    <!-- Input fields for username and password -->
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br><br>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+    
+    <button type="button" onclick="authenticate()">Login</button>
+  </form>
+  
+</div>
+ <img src="C:\Users\keert\Downloads\petrolpicture (1).jpg" width="1550" height="600">
+  <header>
+      <h1>FUELSMART</h1>
+  </header>
+  <main>
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'about')">About</button>
+      <button class="tablinks" onclick="openTab(event, 'delivery')">Delivery</button>
+      <button class="tablinks" onclick="openTab(event, 'services')">Services</button>
+      <button class="tablinks" onclick="openTab(event, 'location')">Location</button>
+      <button class="tablinks" onclick="openTab(event, 'fuelCapacity')">Fuel Capacity</button>
+      <button class="tablinks" onclick="openTab(event, 'paymentOptions')">Payment Options</button>
+      <button class="tablinks" onclick="openTab(event, 'accountDetails')">Account Details</button>
+    </div>
+    
+    <div id="about" class="tabcontent">
+     <h1>About</h1>
+    <img src="C:\Users\keert\Downloads\petrolpicture.jpg" width="366" height="350"><img src="https://cdn.dribbble.com/users/424937/screenshots/4620012/scooter_1.gif" width="366" height="350"><img src="C:\Users\keert\Downloads\location_tracker.gif" width="366" height="350"><img src="C:\Users\keert\Downloads\bunk.jpg" width="366" height="350">
+      <p><h3>Welcome to Smart Petrol Pump App</h3></p> 
+      <p>Welcome to our Smart Petrol Pump! We strive to revolutionize the way you experience refueling by offering innovative services and cutting-edge technology.</p>
+      <p><b>Our Vision:</b></p>
+      <p>At Smart Petrol Pump, our vision is to revolutionize the fuel industry by introducing cutting-edge technology to streamline fueling processes.</p>
+      <p><b>What We Offer:</b></p>
+      <p>We offer a convenient and efficient way for customers to refuel their vehicles by providing an automated system that caters to their fueling needs.</p>
+      <p><b>Key Features:</b></p>
+      <ul>
+        <li>Automated fuel dispensing</li>
+        <li>Secure and user-friendly payment options</li>
+        <li>24/7 availability</li>
+        <li>Real-time monitoring and control</li>
+        <li>Customer rewards and loyalty programs</li>
+        
+      </ul>
+
+      <p><b>Our Mission:</b></p>
+      <p>Our mission is to offer a hassle-free refueling experience while prioritizing customer satisfaction and environmental responsibility.</p>
+      <p><b>Contact Us:</b></p>
+      <p>For inquiries and support, please contact us at support@smartpetrolpump.com or call us at +1234567890.</p>
+      <ul>
+        <li>Efficient and quick refueling services</li>
+        <li>Secure and user-friendly payment options</li>
+        <li>Convenient location and easy accessibility</li>
+        <li>Quality customer care and assistance</li>
+        <li>Additional services like vehicle maintenance, fuel delivery, and more</li>
+      </ul>
+       <ul>
+        <li><strong>Convenience:</strong> Our strategically located pumps make refueling hassle-free, saving you time on your journeys.</li>
+        <li><strong>Technology:</strong> We employ the latest technology to ensure quick and secure transactions, making payment an effortless process.</li>
+        <li><strong>Quality Service:</strong> Our dedicated staff is trained to offer you prompt and friendly service, ensuring a pleasant refueling experience.</li>
+        <li><strong>Additional Services:</strong> Beyond refueling, we provide services such as vehicle maintenance, fuel delivery, and customer support to cater to your needs.</li>
+        <li><strong>Environment-friendly Practices:</strong> We are committed to eco-friendly initiatives, ensuring responsible fueling practices for a sustainable future.</li>
+      </ul>
+      <p>Experience a smarter way to fuel your journey with us!</p>
+      
+      </div>
+
+    <div id="accountDetails" class="tabcontent">
+      <!-- Account details section -->
+      <!-- Input fields for username, password, etc. -->
+     <h1>Account Details</h1>
+     <h2>Profile</h2>
+     <label for="fileInput" id="uploadLabel">
+     <div class="profile-picture-container">
+      <img id="" src="C:\Users\keert\Downloads\Profilepic.jpg" alt="">
+     <input type="file" id="fileInput" accept="image/*">
+     </div>
+     </label> 
+  <form id="accountform">
+   <b><label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter your name">
+<br><br>
+    <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" placeholder="Enter your Date of Birth">
+<br><br>    
+    <label for="mobile">Mobile Number:</label>
+    <input type="tel" id="mobile" placeholder="Enter your mobile number">
+<br><br>    
+    <label for="email">Email ID:</label>
+    <input type="email" id="email" placeholder="Enter your email">
+<br><br>
+    <label for="address">Address:</label>
+    <input type="address" id="address" placeholder="Enter your address">
+<br><br>    
+    <label for="language">Language:</label>
+    <select id="language">
+      <option value="english">English</option>
+      <option value="spanish">Spanish</option>
+      <option value="french">French</option>
+      
+    </select></b>
+    <h2><ul id="nav">
+      <li><a href="#" target="_blank">My Orders</a><br></li>
+      <li><a href="#" target="_blank">Your Rating</a><br></li>
+      <li><a href="#" target="_blank">Help</a><br></li>
+      <li><a href="#" target="_blank">Settings</a><br></li>
+      <li><a href="#" target="_blank">Coupons</a><br></li>
+      <li><a href="#" target="_blank">About</a><br></li>
+      <li><a href="#" target="_blank">Feedback</a><br></li>
+      <li><a href="#" target="_blank">Log Out</a></h2></ul>
+    
+    <button type="button" onclick="saveAccountDetails()">Save Changes</button>
+    
+  </form>
+</div>
+
+<div id="displayDetails" class="tabcontent">
+  <h2>Displayed Details</h2>
+  <p id="displayedName"></p>
+  <p id="displayedMobile"></p>
+  <p id="displayedEmail"></p>
+  <p id="displayedLanguage"></p>
+</div>
+    </div>
+    <div id="paymentOptions" class="tabcontent">
+  <h1>Payment Options</h1>
+ <img src="C:\Users\keert\Downloads\payment.gif"width="1475"height="500">
+  <div id="creditCardContent">
+    <h2><a href="https://www.example.com/creditcard">Credit Card Payment</a></h2>
+  </div>
+
+  <div id="debitCardContent">
+    <h2><a href="https://www.example.com/debitcard">Debit Card Payment</a></h2>
+  </div>
+
+  <div id="paypalContent">
+    <h2><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YOUR_BUTTON_ID">PayPal Payment</a></h2>
+  </div>
+
+  <div id="googlePayContent">
+    <h2><a href="www.googlepay.com">Google Pay Payment</a></h2>
+  </div>
+
+  <div id="paytmContent">
+    <h2><a href="www.paytm.com">Paytm</a></h2>
+  </div>
+
+  <div id="phonepeContent">
+    <h2><a href="www.phonepe.com">Phonepe</a></h2>
+  </div>
+  <!-- Add more divs for additional payment methods -->
+
+  
+</div>
+
+
+<div id="services" class="tabcontent">
+  <b><h1>Services</h1>
+  <div id="serviceOptions">
+          <h3><a href="C:\Users\keert\Desktop\Automated Smart Petrol Pump Based on IOT\index2.html">Vehicle Service</a></h3>
+          <br>
+          <div class="centered-image">
+          <img src="C:\Users\keert\Downloads\service.gif" width="350" height="350">
+          </div>
+          <br>
+          <h3><a href="https://www.bharatpetroleum.in/customer-care.aspx">Customer Care</a></h3>
+          <br>
+          <div class="centered-image">
+          <img src="C:\Users\keert\Downloads\customer care.gif" width="350" height="350">
+          </div>
+          <br>
+          <h3><a href="https://services.india.gov.in/service/ministry_services?ln=en&cmd_id=1897&page_no=7">Help Line</a></h3>
+          <br>
+          <div class="centered-image">
+          <img src="C:\Users\keert\Downloads\help line.gif" width="350" height="350">
+          </div>
+          <br></b>
+  </div>
+</div>
+
+<!-- ... (Remaining HTML code remains unchanged) ... -->
+<!-- ... (Previous HTML code remains unchanged) ... -->
+
+<div id="location" class="tabcontent">
+  <h2>Location</h2>
+  <div>
+    <h3><a href="https://www.google.com/maps/search/?api=1&query=petrol+pumps" target="_blank">Find Nearby Petrol Pumps</a></h3>
+          <br>
+          <div class="centered-image">
+          <img src="C:\Users\keert\Downloads\giphy.gif" width="450" height="350">
+          </div>
+          <br>
+  </div>
+</div>
+
+<!-- ... (Remaining HTML code remains unchanged) ... -->
+
+    
+    <div id="fuelCapacity" class="tabcontent">
+      <!-- Fuel capacity section -->
+      <!-- Input for selecting fuel quantity -->
+      <h2>Fuel Capacity</h2>
+      <b><label for="fuelType">Fuel Type:</label>
+      <select id="fuelType">
+        <option value="petrol">Petrol</option>
+        <option value="diesel">Diesel</option>
+        <option value="electric">Electric</option>
+        <!-- Add more fuel type options as needed -->
+      </select>
+      <br><br>
+      <button onclick="checkFuelType()">Check Fuel Type</button>
+    <p id="selectedFuelType"></p>
+      <br>
+      <label for="fuelInput">Enter Fuel Amount (liters):</label>
+    <input type="number" id="fuelInput" min="0" step="1">
+    <button onclick="updateFuelCapacity()">Update</button></b>
+    <div class="progress-bar">
+      <div class="progress" id="fuelProgress"></div>
+    </div>
+    </div>
+
+    <div id="delivery" class="tabcontent">
+        <br>
+    <h2><a href= "C:\Users\keert\Desktop\Automated Smart Petrol Pump Based on IOT\index3.html">Fuel Delivery</a></h2>
+    <br>
+    <div class="centered-image">
+    <img src="C:\Users\keert\Downloads\delivery.gif" width="250" height="250">
+    </div>
+  </div>
+    <footer>
+      <p>&copy; 2024 Smart Petrol Pump. All Rights Reserved.</p>
+    </footer>
+</main>
+  <script src="script.js"></script>
+</body>
+</html>
